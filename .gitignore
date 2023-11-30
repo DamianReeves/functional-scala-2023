@@ -2,6 +2,8 @@ node_modules/
 elm-stuff/
 target/
 out/
+.vscode/
+.morphir/
 
 *.class
 *.log
@@ -10,4 +12,4 @@ out/
 hs_err_pid*
 
 morphir-ir.json
-morrphir-hashes.json
+morphir-hashes.json

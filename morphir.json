@@ -1,0 +1,13 @@
+{
+  "name": "NorthPole.Associates",
+  "sourceDirectory": "models/src/elm",
+  "exposedModules": ["Main", "CoreRules"],
+  "decorations": {
+    "elf": {
+      "displayName": "Elf",
+      "entryPoint": "NorthPole.Associates.AttributeModel:MainDictionary:ElfId",
+      "ir": "out/morphir-decorations-ir.json",
+      "storageLocation": "out/elves.json"
+    }
+  }
+}
