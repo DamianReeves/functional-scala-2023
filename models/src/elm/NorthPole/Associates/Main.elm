@@ -1,8 +1,10 @@
 module NorthPole.Associates.Main exposing (..)
-import NorthPole.Associates.Person exposing (Person)
+import NorthPole.Associates.Person exposing (Person(..))
 
-whos: List Person
-whos = []
+people: List Person
+people = [
+  Grinch 99
+]
 
 main: String
 main = "Hello, World!"

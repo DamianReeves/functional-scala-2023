@@ -1,7 +1,7 @@
 {
   "name": "NorthPole.Associates",
   "sourceDirectory": "models/src/elm",
-  "exposedModules": ["Main", "Sentiment", "Person", "PersonKind"],
+  "exposedModules": ["Activity", "Activities", "Main", "Sentiment", "SentimentAlgorithm", "Person", "PersonKind"],
   "decorations": {
     "isOpaque": {
       "displayName": "Is Opaque",

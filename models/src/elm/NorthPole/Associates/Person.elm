@@ -48,6 +48,14 @@ formalName person =
       _ ->
         personTitle ++ name
 
+isGrinch : Person -> Bool
+isGrinch person =
+  case person of
+    Who _ _ _ _ ->
+      False
+    Grinch _ ->
+      True
+
 title : Person -> Maybe Title
 title person =
   case person of

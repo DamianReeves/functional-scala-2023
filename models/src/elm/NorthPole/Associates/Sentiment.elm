@@ -1,8 +1,14 @@
 module NorthPole.Associates.Sentiment exposing (..)
 
 
-type OverallSentient
+type OverallSentiment
   = Naughty
   | Nice
 
 type alias SentimentScore = Float
+
+naughty: OverallSentiment
+naughty = Naughty
+
+nice: OverallSentiment
+nice = Nice
