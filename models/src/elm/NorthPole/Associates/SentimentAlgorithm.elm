@@ -15,7 +15,7 @@ activityIsNaughty activity =
     _ -> False
 
 defaultAlgorithm : Algorithm
-default person activities =
+defaultAlgorithm person activities =
   let
     didSomethingNaughty = List.any activityIsNaughty activities
     isGrinch = person |> Person.isGrinch

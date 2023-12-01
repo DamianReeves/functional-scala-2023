@@ -79,3 +79,11 @@ titleToString maybeTitle =
           "Dr."
     Nothing ->
       ""
+
+theGrinch : Person
+theGrinch =
+  Grinch 53
+
+cindyLouWho : Person
+cindyLouWho =
+  Who "Cindy Lou" "Who" 8 Nothing
