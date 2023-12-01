@@ -1,12 +1,19 @@
 module NorthPole.Associates.PersonKind exposing (..)
-import NorthPole.Associates.Person as Person
 
+{--| The Kind of Person --}
 type PersonKind
   = Who
   | Grinch
 
-fromPerson: Person.Person -> PersonKind
-fromPerson person =
-  case person of
-    Person.Who _ _ _ _ -> Person.Who
-    Person.Grinch -> Person.Grinch
+grinch: PersonKind
+grinch = Grinch
+
+who: PersonKind
+who = Who
+
+{--| Is this person a Grinch? --}
+isGrinch: PersonKind -> Bool
+isGrinch kind =
+  case kind of
+    Grinch -> True
+    Who -> False

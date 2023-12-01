@@ -4,6 +4,7 @@ target/
 out/
 .vscode/
 .morphir/
+.idea/
 
 *.class
 *.log
