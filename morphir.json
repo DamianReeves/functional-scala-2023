@@ -1,7 +1,7 @@
 {
   "name": "NorthPole.Associates",
   "sourceDirectory": "models/src/elm",
-  "exposedModules": ["Main", "CoreRules"],
+  "exposedModules": ["Main", "Sentiment", "Person", "PersonKind"],
   "decorations": {
     "elf": {
       "displayName": "Elf",

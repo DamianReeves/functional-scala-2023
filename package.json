@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DamianReeves/functional-scala-2023#readme",
   "devDependencies": {
+    "elm-tooling": "^1.15.0",
     "gulp": "^4.0.2",
     "morphir-elm": "^2.86.0"
   }
