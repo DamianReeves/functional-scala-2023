@@ -14,7 +14,7 @@ activityIsNaughty activity =
     Activity.HitKidSister -> True
     _ -> False
 
-defaultAlgorithm : Algorithm
+defaultAlgorithm : Person.Person -> ActivityList -> Sentiment.OverallSentiment
 defaultAlgorithm person activities =
   let
     didSomethingNaughty = List.any activityIsNaughty activities
