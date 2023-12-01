@@ -1,5 +1,5 @@
 {
   "name": "NorthPole.Associates.AttributeModel",
   "sourceDirectory": "src/elm",
-  "exposedModules": ["MainDictionary"]
+  "exposedModules": ["MainDictionary", "TypeHint"]
 }

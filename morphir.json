@@ -3,11 +3,11 @@
   "sourceDirectory": "models/src/elm",
   "exposedModules": ["Main", "Sentiment", "Person", "PersonKind"],
   "decorations": {
-    "elf": {
-      "displayName": "Elf",
-      "entryPoint": "NorthPole.Associates.AttributeModel:MainDictionary:ElfId",
-      "ir": "out/morphir-decorations-ir.json",
-      "storageLocation": "out/elves.json"
+    "isOpaque": {
+      "displayName": "Is Opaque",
+      "entryPoint": "NorthPole.Associates.AttributeModel:TypeHint:IsOpaque",
+      "ir": "decorations/morphir-ir.json",
+      "storageLocation": "decorations/is-opaque.json"
     }
   }
 }

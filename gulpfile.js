@@ -29,7 +29,7 @@ function runMorphirElmMake(project, outputPath) {
 }
 
 function buildDecorations(cb) {
-  return runMorphirElmMake('decorations/', 'out/morphir-decorations-ir.json')(cb);
+  return runMorphirElmMake('decorations/', 'decorations/morphir-ir.json')(cb);
 }
 
 function buildModels(cb) {
