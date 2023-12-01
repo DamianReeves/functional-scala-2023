@@ -1,5 +1,6 @@
 {
-    "NorthPole.Associates:Person:firstName.type": true,
+    "NorthPole.Associates:Person:person.type": false,
     "NorthPole.Associates:Person:age.type": true,
+    "NorthPole.Associates:Person:firstName.type": true,
     "NorthPole.Associates:Sentiment:sentimentScore.type": true
 }

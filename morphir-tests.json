@@ -1,0 +1,44 @@
+[
+    [
+        [
+            [
+                [
+                    "north",
+                    "pole"
+                ],
+                [
+                    "associates"
+                ]
+            ],
+            [
+                [
+                    "sentiment",
+                    "algorithm"
+                ]
+            ],
+            [
+                "default",
+                "algorithm"
+            ]
+        ],
+        [
+            {
+                "inputs": [
+                    [
+                        "grinch",
+                        99
+                    ],
+                    [
+                        [
+                            "madeBed"
+                        ]
+                    ]
+                ],
+                "expectedOutput": [
+                    "naughty"
+                ],
+                "description": "The Grinch"
+            }
+        ]
+    ]
+]

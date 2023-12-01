@@ -5,6 +5,7 @@ out/
 .vscode/
 .morphir/
 .idea/
+dist/
 
 *.class
 *.log
